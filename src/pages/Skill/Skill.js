@@ -5,8 +5,8 @@ const Skill = () => {
         <div>
             <center>
                 <div id="SkillBox">
-                    <center><p>My Skills</p></center>
-                    <img src="https://2.bp.blogspot.com/--aPlnH6X1YA/UEf7yeJ3gGI/AAAAAAAATgw/TgMK9IVzipk/s1600/Skills%2B-%2BPawan%2BMall.png" alt="Skill - Pawan Mall" />
+                    <center><h2 >My Skills</h2></center>
+                    
                     <div class="SkillBar">
                         <div id="Skill-HTML">
                             <span class="Skill-Area ">HTML</span>

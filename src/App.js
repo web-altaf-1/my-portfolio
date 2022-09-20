@@ -7,11 +7,15 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Skill from './pages/Skill/Skill';
 import Resume from './pages/Resume/Resume';
+import Education from './pages/Education/Education';
 // ..
 AOS.init();
 
 function App() {
   // document.addEventListener('contextmenu', event => event.preventDefault());
+
+  // UPDATE: I was able to get this working again... Enjoy!
+
 
 
   return (
@@ -20,10 +24,11 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/about' element={<About></About>}></Route>
-        <Route path='/skill' element={<Skill/>}></Route>
-        <Route path='/resume' element={<Resume/>}></Route>
-        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/skill' element={<Skill />}></Route>
+        <Route path='/resume' element={<Resume />}></Route>
+        <Route path='/education' element={<Education />}></Route>
       </Routes>
+
     </div>
   );
 }
