@@ -6,6 +6,7 @@ import Home from './pages/Home/Home';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Skill from './pages/Skill/Skill';
+import Resume from './pages/Resume/Resume';
 // ..
 AOS.init();
 
@@ -20,7 +21,7 @@ function App() {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/skill' element={<Skill/>}></Route>
-        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/resume' element={<Resume/>}></Route>
         <Route path='/' element={<Home></Home>}></Route>
       </Routes>
     </div>

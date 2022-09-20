@@ -2,18 +2,18 @@
 
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-    
+
+
 }
 
 body {
     min-height: 100vh;
     /* font-family: 'Poppins', sans-serif; */
-    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     /* background: rgb(18, 18, 18); */
     background-color: rgb(20 30 39/1);
     color: rgb(238, 238, 238);
@@ -22,7 +22,7 @@ body {
 
 
 
-.main-page{
+.main-page {
     width: 50%;
     margin: 0 auto;
     text-align: center;
@@ -38,9 +38,23 @@ body {
 
 /* about  */
 
-.about-img-div{
-    
+.about-img-div {}
 
+/* resume button  */
+
+.resume {
+    color: #fff;
+    border: solid 1px #c9c9c9;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.resume:hover {
+    color: #fff;
+    border-color: #ff5fbc;
 }
 
 
@@ -56,18 +70,20 @@ body {
     /* background-color: #fff; */
     /* border: 1px solid #cdcdcd; */
     padding: 10px;
-    border-radius:20px;
-    -o-border-radius:20px;
-    -webkit-border-radius:20px;
-    -ms-border-radius:20px;
-    -moz-border-radius:20px;  
+    border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -moz-border-radius: 20px;
 }
+
 #SkillBox img {
     width: 20%;
     height: 10%;
     margin: auto 35%;
     padding: 10px;
 }
+
 .SkillBar {
     width: 90%;
     height: 50px;
@@ -76,6 +92,7 @@ body {
     margin: 20px auto;
     border-radius: 25px;
 }
+
 #Skill-HTML {
     width: 100%;
     animation: Animate-HTML 4s;
@@ -84,34 +101,51 @@ body {
     -o-animation: Animate-HTML 4s;
     height: 50px;
     position: absolute;
-    background-color: #ea8564;
+    background-color: #e65100;
     border-radius: 25px;
 }
+
 @keyframes Animate-HTML {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 100%
+    }
 }
-to {
-    width: 100%}
-}@-webkit-keyframes Animate-HTML {
+
+@-webkit-keyframes Animate-HTML {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 100%
+    }
 }
-to {
-    width: 100%}
-}@-moz-keyframes Animate-HTML {
+
+@-moz-keyframes Animate-HTML {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 100%
+    }
 }
-to {
-    width: 100%}
-}@-o-keyframes Animate-HTML {
+
+@-o-keyframes Animate-HTML {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 100%
+    }
 }
-to {
-    width: 100%}
-}#Skill-CSS {
+
+#Skill-CSS {
     animation: Animate-CSS 5s;
     -webkit-animation: Animate-CSS 5s;
     -moz-animation: Animate-CSS 5s;
@@ -119,33 +153,48 @@ to {
     width: 70%;
     height: 50px;
     position: absolute;
-    background-color: #55a69f;
+    background-color: #0277bd;
     border-radius: 25px;
 }
+
 @keyframes Animate-CSS {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 70%
+    }
 }
-to {
-    width: 70%}
-}@-webkit-keyframes Animate-CSS {
+
+@-webkit-keyframes Animate-CSS {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 70%
+    }
 }
-to {
-    width: 70%}
-}@-moz-keyframes Animate-CSS {
+
+@-moz-keyframes Animate-CSS {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 70%
+    }
 }
-to {
-    width: 70%}
-}@-o-keyframes Animate-CSS {
+
+@-o-keyframes Animate-CSS {
     from {
-    width: 10px;
-}
-to {
-    width: 70%}
+        width: 10px;
+    }
+
+    to {
+        width: 70%
+    }
 }
 
 #Skill-bootstrap {
@@ -156,33 +205,48 @@ to {
     width: 40%;
     height: 50px;
     position: absolute;
-    background-color: #99856d;
+    background-color: #7609f6;
     border-radius: 25px;
 }
+
 @keyframes Animate-bootstrap {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 40%
+    }
 }
-to {
-    width: 40%}
-}@-webkit-keyframes Animate-bootstrap {
+
+@-webkit-keyframes Animate-bootstrap {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 40%
+    }
 }
-to {
-    width: 40%}
-}@-moz-keyframes Animate-bootstrap {
+
+@-moz-keyframes Animate-bootstrap {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 40%
+    }
 }
-to {
-    width: 40%}
-}@-o-keyframes Animate-bootstrap {
+
+@-o-keyframes Animate-bootstrap {
     from {
-    width: 10px;
-}
-to {
-    width: 40%}
+        width: 10px;
+    }
+
+    to {
+        width: 40%
+    }
 }
 
 
@@ -194,33 +258,48 @@ to {
     width: 40%;
     height: 50px;
     position: absolute;
-    background-color: #5aa669;
+    background-color: #38bdf8;
     border-radius: 25px;
 }
+
 @keyframes Animate-Tailwind {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 40%
+    }
 }
-to {
-    width: 40%}
-}@-webkit-keyframes Animate-Tailwind {
+
+@-webkit-keyframes Animate-Tailwind {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 40%
+    }
 }
-to {
-    width: 40%}
-}@-moz-keyframes Animate-Tailwind {
+
+@-moz-keyframes Animate-Tailwind {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 40%
+    }
 }
-to {
-    width: 40%}
-}@-o-keyframes Animate-Tailwind {
+
+@-o-keyframes Animate-Tailwind {
     from {
-    width: 10px;
-}
-to {
-    width: 40%}
+        width: 10px;
+    }
+
+    to {
+        width: 40%
+    }
 }
 
 
@@ -233,33 +312,48 @@ to {
     width: 65%;
     height: 50px;
     position: absolute;
-    background-color: #c44e45;
+    background-color: #ffbb00;
     border-radius: 25px;
 }
+
 @keyframes Animate-JS {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 65%
+    }
 }
-to {
-    width: 65%}
-}@-webkit-keyframes Animate-JS {
+
+@-webkit-keyframes Animate-JS {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 65%
+    }
 }
-to {
-    width: 65%}
-}@-moz-keyframes Animate-JS {
+
+@-moz-keyframes Animate-JS {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 65%
+    }
 }
-to {
-    width: 65%}
-}@-o-keyframes Animate-JS {
+
+@-o-keyframes Animate-JS {
     from {
-    width: 10px;
-}
-to {
-    width: 65%}
+        width: 10px;
+    }
+
+    to {
+        width: 65%
+    }
 }
 
 #Skill-React {
@@ -273,30 +367,45 @@ to {
     background-color: #970cc1;
     border-radius: 25px;
 }
+
 @keyframes Animate-React {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 30%
+    }
 }
-to {
-    width: 30%}
-}@-webkit-keyframes Animate-React {
+
+@-webkit-keyframes Animate-React {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 30%
+    }
 }
-to {
-    width: 30%}
-}@-moz-keyframes Animate-React {
+
+@-moz-keyframes Animate-React {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 30%
+    }
 }
-to {
-    width: 30%}
-}@-o-keyframes Animate-React {
+
+@-o-keyframes Animate-React {
     from {
-    width: 10px;
-}
-to {
-    width: 30%}
+        width: 10px;
+    }
+
+    to {
+        width: 30%
+    }
 }
 
 #Skill-NodeJs {
@@ -310,30 +419,45 @@ to {
     background-color: #8e930c;
     border-radius: 25px;
 }
+
 @keyframes Animate-NodeJs {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 25%
+    }
 }
-to {
-    width: 25%}
-}@-webkit-keyframes Animate-NodeJs {
+
+@-webkit-keyframes Animate-NodeJs {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 25%
+    }
 }
-to {
-    width: 25%}
-}@-moz-keyframes Animate-NodeJs {
+
+@-moz-keyframes Animate-NodeJs {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 25%
+    }
 }
-to {
-    width: 25%}
-}@-o-keyframes Animate-NodeJs {
+
+@-o-keyframes Animate-NodeJs {
     from {
-    width: 10px;
-}
-to {
-    width: 25%}
+        width: 10px;
+    }
+
+    to {
+        width: 25%
+    }
 }
 
 #Skill-Express {
@@ -347,30 +471,45 @@ to {
     background-color: #5A69A6;
     border-radius: 25px;
 }
+
 @keyframes Animate-Express {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 50%
+    }
 }
-to {
-    width: 50%}
-}@-webkit-keyframes Animate-Express {
+
+@-webkit-keyframes Animate-Express {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 50%
+    }
 }
-to {
-    width: 50%}
-}@-moz-keyframes Animate-Express {
+
+@-moz-keyframes Animate-Express {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 50%
+    }
 }
-to {
-    width: 50%}
-}@-o-keyframes Animate-Express {
+
+@-o-keyframes Animate-Express {
     from {
-    width: 10px;
-}
-to {
-    width: 50%}
+        width: 10px;
+    }
+
+    to {
+        width: 50%
+    }
 }
 
 #Skill-MongoDb {
@@ -384,30 +523,45 @@ to {
     background-color: #23b1db;
     border-radius: 25px;
 }
+
 @keyframes Animate-MongoDb {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 80%
+    }
 }
-to {
-    width: 80%}
-}@-webkit-keyframes Animate-MongoDb {
+
+@-webkit-keyframes Animate-MongoDb {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 80%
+    }
 }
-to {
-    width: 80%}
-}@-moz-keyframes Animate-MongoDb {
+
+@-moz-keyframes Animate-MongoDb {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 80%
+    }
 }
-to {
-    width: 80%}
-}@-o-keyframes Animate-MongoDb {
+
+@-o-keyframes Animate-MongoDb {
     from {
-    width: 10px;
-}
-to {
-    width: 80%}
+        width: 10px;
+    }
+
+    to {
+        width: 80%
+    }
 }
 
 #Skill-Github {
@@ -421,30 +575,45 @@ to {
     background-color: #f8a51e;
     border-radius: 25px;
 }
+
 @keyframes Animate-Github {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 35%
+    }
 }
-to {
-    width: 35%}
-}@-webkit-keyframes Animate-Github {
+
+@-webkit-keyframes Animate-Github {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 35%
+    }
 }
-to {
-    width: 35%}
-}@-moz-keyframes Animate-Github {
+
+@-moz-keyframes Animate-Github {
     from {
-    width: 10px;
+        width: 10px;
+    }
+
+    to {
+        width: 35%
+    }
 }
-to {
-    width: 35%}
-}@-o-keyframes Animate-Github {
+
+@-o-keyframes Animate-Github {
     from {
-    width: 10px;
-}
-to {
-    width: 35%}
+        width: 10px;
+    }
+
+    to {
+        width: 35%
+    }
 }
 
 
@@ -459,6 +628,7 @@ to {
     /* font-family: Lato-Regular, sans-serif; */
     font-size: 18px;
 }
+
 .PercentText {
     z-index: 3;
     position: relative;

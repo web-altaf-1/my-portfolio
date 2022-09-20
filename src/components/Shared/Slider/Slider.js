@@ -20,6 +20,7 @@ const Slider = () => {
                     <Cursor />
                     </span>
                 </h4>
+                
                 <SocialButton></SocialButton>
             </div>
             
