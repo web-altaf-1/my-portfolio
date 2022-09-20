@@ -1,8 +1,9 @@
 .header-nav {
     height: auto;
-    background-color: rgba(33, 37, 41, 1) !important;
+    background-color: rgb(30 44 56/1);
     color: #fff;
     padding: 10px 0px;
+    position: sticky;
 }
 
 
@@ -25,7 +26,7 @@
     list-style: none;
     text-decoration: none;
     padding: 0 10px;
-    font-size: 22px;
+    font-size: 20px;
     margin-left: 15px;
     display: flex;
     align-items: center;
@@ -51,6 +52,6 @@
 
 .cool-link:hover::after {
     width: 100%;
-    transition: width .3s;
+    transition: width .5s;
 }
 

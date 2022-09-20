@@ -4,7 +4,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <nav className='header-nav'>
+        <nav className='header-nav sticky-top'>
             <div className="container nav-container">
                 <NavLink to="/" className="navbar-brand"><h3 className='fw-bold'>Altaf</h3></NavLink>
                 {/* <button aria-controls="responsive-navbar-nav" type="button" aria-label="Toggle navigation" className="navbar-toggler collapsed"><i  className="fa-2x fa-solid fa-bars"></i></button> */}

@@ -14,7 +14,8 @@ body {
     min-height: 100vh;
     /* font-family: 'Poppins', sans-serif; */
     font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    background: rgb(18, 18, 18);
+    /* background: rgb(18, 18, 18); */
+    background-color: rgb(20 30 39/1);
     color: rgb(238, 238, 238);
     transition: all 0.5s linear 0s;
 }
@@ -33,3 +34,439 @@ body {
 }
 
 
+
+
+/* about  */
+
+.about-img-div{
+    
+
+}
+
+
+/* skills part  */
+
+
+#SkillBox {
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+    width: 95%;
+    height: auto;
+    margin: 40px auto;
+    /* background-color: #fff; */
+    /* border: 1px solid #cdcdcd; */
+    padding: 10px;
+    border-radius:20px;
+    -o-border-radius:20px;
+    -webkit-border-radius:20px;
+    -ms-border-radius:20px;
+    -moz-border-radius:20px;  
+}
+#SkillBox img {
+    width: 20%;
+    height: 10%;
+    margin: auto 35%;
+    padding: 10px;
+}
+.SkillBar {
+    width: 90%;
+    height: 50px;
+    position: relative;
+    background: rgba(17, 17, 17, .3);
+    margin: 20px auto;
+    border-radius: 25px;
+}
+#Skill-HTML {
+    width: 100%;
+    animation: Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+    height: 50px;
+    position: absolute;
+    background-color: #ea8564;
+    border-radius: 25px;
+}
+@keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-webkit-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-moz-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-o-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}#Skill-CSS {
+    animation: Animate-CSS 5s;
+    -webkit-animation: Animate-CSS 5s;
+    -moz-animation: Animate-CSS 5s;
+    -o-animation: Animate-CSS 5s;
+    width: 70%;
+    height: 50px;
+    position: absolute;
+    background-color: #55a69f;
+    border-radius: 25px;
+}
+@keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}@-webkit-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}@-moz-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}@-o-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}
+
+#Skill-bootstrap {
+    animation: Animate-bootstrap 5s;
+    -webkit-animation: Animate-bootstrap 5s;
+    -moz-animation: Animate-bootstrap 5s;
+    -o-animation: Animate-bootstrap 5s;
+    width: 40%;
+    height: 50px;
+    position: absolute;
+    background-color: #99856d;
+    border-radius: 25px;
+}
+@keyframes Animate-bootstrap {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}@-webkit-keyframes Animate-bootstrap {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}@-moz-keyframes Animate-bootstrap {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}@-o-keyframes Animate-bootstrap {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}
+
+
+#Skill-Tailwind {
+    animation: Animate-Tailwind 4s;
+    -webkit-animation: Animate-Tailwind 4s;
+    -moz-animation: Animate-Tailwind 4s;
+    -o-animation: Animate-Tailwind 4s;
+    width: 40%;
+    height: 50px;
+    position: absolute;
+    background-color: #5aa669;
+    border-radius: 25px;
+}
+@keyframes Animate-Tailwind {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}@-webkit-keyframes Animate-Tailwind {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}@-moz-keyframes Animate-Tailwind {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}@-o-keyframes Animate-Tailwind {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}
+
+
+
+#Skill-JS {
+    animation: Animate-JS 4s;
+    -webkit-animation: Animate-JS 4s;
+    -moz-animation: Animate-JS 4s;
+    -o-animation: Animate-JS 4s;
+    width: 65%;
+    height: 50px;
+    position: absolute;
+    background-color: #c44e45;
+    border-radius: 25px;
+}
+@keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-webkit-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-moz-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-o-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}
+
+#Skill-React {
+    animation: Animate-React 4s;
+    -webkit-animation: Animate-React 4s;
+    -moz-animation: Animate-React 4s;
+    -o-animation: Animate-React 4s;
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    background-color: #970cc1;
+    border-radius: 25px;
+}
+@keyframes Animate-React {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-webkit-keyframes Animate-React {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-moz-keyframes Animate-React {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-o-keyframes Animate-React {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}
+
+#Skill-NodeJs {
+    animation: Animate-NodeJs 4s;
+    -webkit-animation: Animate-NodeJs 4s;
+    -moz-animation: Animate-NodeJs 4s;
+    -o-animation: Animate-NodeJs 4s;
+    width: 25%;
+    height: 50px;
+    position: absolute;
+    background-color: #8e930c;
+    border-radius: 25px;
+}
+@keyframes Animate-NodeJs {
+    from {
+    width: 10px;
+}
+to {
+    width: 25%}
+}@-webkit-keyframes Animate-NodeJs {
+    from {
+    width: 10px;
+}
+to {
+    width: 25%}
+}@-moz-keyframes Animate-NodeJs {
+    from {
+    width: 10px;
+}
+to {
+    width: 25%}
+}@-o-keyframes Animate-NodeJs {
+    from {
+    width: 10px;
+}
+to {
+    width: 25%}
+}
+
+#Skill-Express {
+    animation: Animate-Express 4s;
+    -webkit-animation: Animate-Express 4s;
+    -moz-animation: Animate-Express 4s;
+    -o-animation: Animate-Express 4s;
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    background-color: #5A69A6;
+    border-radius: 25px;
+}
+@keyframes Animate-Express {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-webkit-keyframes Animate-Express {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-moz-keyframes Animate-Express {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-o-keyframes Animate-Express {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}
+
+#Skill-MongoDb {
+    animation: Animate-MongoDb 4s;
+    -webkit-animation: Animate-MongoDb 4s;
+    -moz-animation: Animate-MongoDb 4s;
+    -o-animation: Animate-MongoDb 4s;
+    width: 80%;
+    height: 50px;
+    position: absolute;
+    background-color: #23b1db;
+    border-radius: 25px;
+}
+@keyframes Animate-MongoDb {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-webkit-keyframes Animate-MongoDb {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-moz-keyframes Animate-MongoDb {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-o-keyframes Animate-MongoDb {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}
+
+#Skill-Github {
+    animation: Animate-Github 4s;
+    -webkit-animation: Animate-Github 4s;
+    -moz-animation: Animate-Github 4s;
+    -o-animation: Animate-Github 4s;
+    width: 35%;
+    height: 50px;
+    position: absolute;
+    background-color: #f8a51e;
+    border-radius: 25px;
+}
+@keyframes Animate-Github {
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+}@-webkit-keyframes Animate-Github {
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+}@-moz-keyframes Animate-Github {
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+}@-o-keyframes Animate-Github {
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+}
+
+
+.Skill-Area {
+    z-index: 1;
+    float: left;
+    /* position: absolute; */
+    margin-top: 15px;
+    margin-left: 15px;
+    text-shadow: none;
+    color: #fff;
+    /* font-family: Lato-Regular, sans-serif; */
+    font-size: 18px;
+}
+.PercentText {
+    z-index: 3;
+    position: relative;
+    padding-right: 15px;
+    margin-top: 15px;
+    float: right;
+    text-shadow: none;
+    color: #fff;
+    /* font-family: Lato-Regular, sans-serif; */
+    font-size: 18px;
+}

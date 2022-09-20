@@ -12,7 +12,7 @@ const Slider = () => {
     return (
         <div className='home-page'>
             <div className='main-page'>
-                <h2 style={{ fontSize: '4rem', fontWeight: '700' }} className=''>Md Altaf Hossen</h2>
+                <h2 data-aos="zoom-in-down" style={{ fontSize: '4rem', fontWeight: '700' }} className=''>Md Altaf Hossen</h2>
                 <h4 style={{ fontWeight: '700', fontSize: 'xx-large' ,marginBottom:'20px'}}><span>I'm </span><span style={{color:'#51ff51'}}>
                     {
                         text
