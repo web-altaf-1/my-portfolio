@@ -12,9 +12,9 @@ import Education from './pages/Education/Education';
 AOS.init();
 
 function App() {
-  // document.addEventListener('contextmenu', event => event.preventDefault());
+  document.addEventListener('contextmenu', event => event.preventDefault());
 
-  // UPDATE: I was able to get this working again... Enjoy!
+
 
 
 
