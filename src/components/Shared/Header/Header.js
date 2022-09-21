@@ -18,10 +18,13 @@ const Header = () => {
                         <span></span>
                         <span></span>
                         <ul id="menu">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Info</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><NavLink to='/'>Home</NavLink></li>
+                            <li><NavLink to='/about'>About</NavLink></li>
+                            <li><NavLink to='/skill'>Skill</NavLink></li>
+                            <li><NavLink to='/education'>Education</NavLink></li>
+                            <li><NavLink to='/project'>Projects</NavLink></li>
+                            <li><NavLink to='/resume'>Resume</NavLink></li>
+                            <li><NavLink to='/contact'>Contact</NavLink></li>
                         </ul>
                     </div>
                 </nav>
@@ -36,6 +39,7 @@ const Header = () => {
                         <li><NavLink className='cool-link' to="skill">Skill</NavLink></li>
                         <li><NavLink className='cool-link' to="education">Education</NavLink></li>
                         <li><NavLink className='cool-link' to="projects">Projects</NavLink></li>
+                        <li><NavLink className='cool-link' to="contact">Contact</NavLink></li>
                         <li><NavLink className='cool-link' to="resume">Resume</NavLink></li>
                     </ul>
                 </div>
