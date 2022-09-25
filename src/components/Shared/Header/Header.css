@@ -145,7 +145,7 @@
     position: absolute;
     visibility: hidden;
     right: -20px;
-    top: 30px;
+    top: 43px;
     z-index: 888;
     background-color: #36383F;
     padding: 20px;
@@ -181,4 +181,14 @@
         display: block;
     }
 
+}
+
+
+@media screen and (min-width:683px) and (max-width:1080px) {
+    .right-nav{
+        display: none;
+    }
+    .navigation{
+        display: block;
+    }    
 }

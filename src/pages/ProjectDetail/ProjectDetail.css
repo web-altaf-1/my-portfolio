@@ -1,0 +1,31 @@
+.project-details-container{
+    display: flex;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.900)!important;
+}
+.project-img-container{
+    display: flex;
+
+}
+
+.project-details-container > div{
+    width: 50%;
+}
+
+.tools-container{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.tools-container li{
+    padding: 3px;
+    /* list-style: none; */
+    /* border-bottom: 2px dashed gray; */
+}
+.tools-container li:hover{
+    transition: 0.5s;
+    color: rgb(255, 0, 179);
+}
+

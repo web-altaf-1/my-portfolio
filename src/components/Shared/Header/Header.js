@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <nav className='header-nav sticky-top'>
             <div className="container nav-container">
-                <NavLink to="/" className="navbar-brand"><h3 className='fw-bold'>Altaf</h3></NavLink>
+                <NavLink to="/" className="navbar-brand"><h3 className='fw-bold '>Altaf</h3></NavLink>
                 {/* <button aria-controls="responsive-navbar-nav" type="button" aria-label="Toggle navigation" className="navbar-toggler collapsed nav-mobile-btn"><i className="fa-2x fa-solid fa-bars"></i></button> */}
 
 
@@ -18,13 +18,13 @@ const Header = () => {
                         <span></span>
                         <span></span>
                         <ul id="menu">
-                            <li><NavLink to='/'>Home</NavLink></li>
-                            <li><NavLink to='/about'>About</NavLink></li>
-                            <li><NavLink to='/skill'>Skill</NavLink></li>
-                            <li><NavLink to='/education'>Education</NavLink></li>
-                            <li><NavLink to='/project'>Projects</NavLink></li>
-                            <li><NavLink to='/resume'>Resume</NavLink></li>
-                            <li><NavLink to='/contact'>Contact</NavLink></li>
+                        <NavLink to='/'><li>Home</li></NavLink>
+                        <NavLink to='/about'><li>About</li></NavLink>
+                        <NavLink to='/skill'><li>Skill</li></NavLink>
+                        <NavLink to='/education'><li>Education</li></NavLink>
+                        <NavLink to='/projects'><li>Projects</li></NavLink>
+                        <NavLink to='/resume'><li>Resume</li></NavLink>
+                        <NavLink to='/contact'><li>Contact</li></NavLink>
                         </ul>
                     </div>
                 </nav>

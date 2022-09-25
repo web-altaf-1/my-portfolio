@@ -1,0 +1,31 @@
+.about-img-div {
+    width: 40%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem !important;
+}
+
+.about-img-div img {
+    width: 300px;
+    height: auto;
+}
+
+.about-text-div {
+    width: 60%;
+    padding: 1rem ;
+}
+
+@media screen and (max-width:682px) {
+    .about-text-div {
+        width: 100%;
+        padding: 1.5rem;
+    }
+}
+@media screen and (min-width:683px) and (max-width:1080px) {
+    .about-text-div {
+        width: 100%;
+        padding: 1.5rem 5rem;
+    }
+}

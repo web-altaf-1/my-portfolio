@@ -1,9 +1,11 @@
 import React from 'react';
+import './Resume.css';
 
 const Resume = () => {
     return (
-        <div>
-            <button className='resume '>Download Resume</button>
+        <div className='resume-container'>
+            <button className='resume-first '>Download Resume</button>
+            <button className='resume-second '>Google Drive Resume</button>
         </div>
     );
 };

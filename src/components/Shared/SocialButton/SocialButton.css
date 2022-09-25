@@ -1,0 +1,27 @@
+/* social icon  */
+
+.social-button-container a {
+    color: black;
+
+}
+
+.linked-in-icon {
+    width: 56px;
+    height: 56px;
+    color: black;
+
+}
+
+.github-button {
+    width: 59px;
+    height: 56px;
+    color: black;
+
+}
+
+.email-button {
+    width: 56px;
+    height: 56px;
+    color: black;
+
+}

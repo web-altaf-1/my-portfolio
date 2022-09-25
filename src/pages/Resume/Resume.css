@@ -1,0 +1,66 @@
+
+/* resume button  */
+
+.resume-container{
+    height: calc(50vh - 64px);
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
+    background: transparent;
+    justify-content: center;
+    border: 2px solid #ddd;
+    align-items: center;
+}
+
+.resume-first {
+    color: #fff;
+    border: solid 2px #1325e8;
+    padding: 10px;
+    border-radius: 4px;
+    background:  linear-gradient(to top right, #1325e8 -5%, #a41cce 100%);
+    text-decoration: none;
+    font-size: 19px;
+    margin-left: 10px;
+}
+.resume-first:hover {
+    color: #fff;
+    border-color: #1325e8;
+    background: transparent;
+    transition: 0.5s;
+}
+.resume-second {
+    color: #fff;
+    border: solid 2px #1325e8;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 19px;
+    margin-left: 10px;
+}
+
+.resume-second:hover {
+    color: #fff;
+    transition: 0.5s;
+    background:  linear-gradient(to top right, #1325e8 -5%, #a41cce 100%);
+}
+
+
+@media screen and (max-width:682px) {
+    .resume-container{
+        display: flex;
+        flex-direction: column;
+        
+        width: 100%;
+        align-items: unset;
+    }    
+    .resume{
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 10px;
+        border-radius: 12px;
+    }
+}
