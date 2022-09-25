@@ -1,13 +1,33 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useRef } from 'react';
 import './Contact.css';
 
+import emailjs from '@emailjs/browser';
+import { toast, ToastContainer } from 'react-toastify';
+
 const Contact = () => {
+    var form = useRef();
+
+    const handleSendEmail = (event) => {
+        event.preventDefault();
+
+        emailjs.sendForm(`${process.env.REACT_APP_SERVICE_ID}`, `${process.env.REACT_APP_TEMPLETE_ID}`, form.current, `${process.env.REACT_APP_PUBLIC_KEY}`)
+            .then((result) => {
+                console.log(result.text);
+                toast('Email sent Successfull !!');
+                form.current.reset();
+            }, (error) => {
+                console.log(error.text);
+            });
+
+    
+    }
+
+
     const handleEmail = () => {
 
     }
     const handleGitHub = () => {
-        
+
     }
     const handleFacebookLink = () => {
         window.open(
@@ -15,7 +35,7 @@ const Contact = () => {
             '_blank'
         );
     }
-    
+
     const handleInstagramLink = () => {
         window.open(
             'https://www.instagram.com/altaf.web/',
@@ -42,10 +62,12 @@ const Contact = () => {
                                             <div className="contact_field">
                                                 <h3>Contact Me</h3>
                                                 <p>Feel Free to contact us any time. I will get back to you as soon as I can!.</p>
-                                                <input type="text" className="form-control form-group" placeholder="Name" />
-                                                <input type="text" className="form-control form-group" placeholder="Email" />
-                                                <textarea className="form-control form-group" placeholder="Message"></textarea>
-                                                <button className="contact_form_submit">Send</button>
+                                                <form ref={form} onSubmit={handleSendEmail}>
+                                                    <input required type="text" className="form-control form-group" name='user_name' placeholder="Name" />
+                                                    <input required type="email" className="form-control form-group" name='from_email' placeholder="Email" />
+                                                    <textarea required className="form-control form-group" placeholder="Message" name='message'></textarea>
+                                                    <input className='contact_form_submit' type="submit" value="Send" />
+                                                </form>
                                             </div>
                                         </div>
                                     </div>
@@ -54,9 +76,9 @@ const Contact = () => {
                                             <div className="socil_item_inner d-flex ">
                                                 <li onClick={handleFacebookLink}><a href="#"><i className="fab fa-facebook-square"></i></a></li>
                                                 <li onClick={handleInstagramLink}><a href="#"><i className="fab fa-instagram"></i></a></li>
-                                                <li onClick={handleTwitterLink}><a href="#"><i className="fab fa-twitter"></i></a></li> 
+                                                <li onClick={handleTwitterLink}><a href="#"><i className="fab fa-twitter"></i></a></li>
                                             </div>
-                                            
+
                                         </div>
                                     </div>
                                 </div>
@@ -82,8 +104,8 @@ const Contact = () => {
                 </div>
             </section>
 
-            
 
+        <ToastContainer></ToastContainer>
         </div>
     );
 };

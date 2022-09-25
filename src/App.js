@@ -13,6 +13,7 @@ import Projects from './pages/Projects/Projects';
 import ProjectDetail from './pages/ProjectDetail/ProjectDetail';
 import Loading from './components/Shared/Loading/Loading';
 import NotFound from './components/Shared/NotFound/NotFound';
+import 'react-toastify/dist/ReactToastify.css';
 // ..
 AOS.init();
 
