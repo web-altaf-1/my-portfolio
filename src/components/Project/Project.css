@@ -7,8 +7,7 @@
 }
 
 
-
-
+/* custom button style start from here  */
 
 .custom-btn {
     box-sizing: border-box;
@@ -46,4 +45,10 @@
 
 .project-button:hover {
     box-shadow: 0 0 40px 40px #5f6aff inset;
+}
+
+@media screen and (max-width:460px) {
+    .custom-btn{
+        padding: 7px;
+    }    
 }

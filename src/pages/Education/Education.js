@@ -26,7 +26,7 @@ const Education = () => {
                 <div data-aos="fade-left" className='education__content'>
                     <h5><span style={{color:'#00ff00'}}>PSC</span> - A govt Primary School</h5>
                     <span className='year'>2013</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores veniam libero sapiente cumque sed, eum ipsa amet!</p>
+                    <p>I passed PSC in this school in 2013. This is my first educational instutution. </p>
                 </div>
             </div>
 

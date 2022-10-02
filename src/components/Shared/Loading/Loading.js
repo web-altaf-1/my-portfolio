@@ -3,7 +3,7 @@ import './Loading.css';
 
 const Loading = () => {
     return (
-        <div style={{ height: 'calc(100vh - 65px)', display: 'flex', justifyContent: 'center', alignItems: 'center' }} className=''>
+        <div className='loading-container'>
             <svg className="pl text-center m-auto" viewBox="0 0 200 200" width="200" height="200" xmlns="">
                 <defs>
                     <linearGradient id="pl-grad1" x1="1" y1="0.5" x2="0" y2="0.5">

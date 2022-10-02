@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import aboutImg from '../../asset/images/about.png'
 
 const About = () => {
     return (
@@ -7,8 +8,10 @@ const About = () => {
             <h1 className='text-center py-2 fw-bold'>About</h1>
             <div className='d-lg-flex '>
                 <div data-aos="fade-right" className='about-img-div '>
-                    <img  src="https://i.ibb.co/1TK6FbC/a.png" alt="altaf-photo" />
+                    {/* My profile Image */}
+                    <img src={aboutImg} alt="altaf-photo" />
                 </div>
+                {/* My about Details  */}
                 <div data-aos="zoom-in-up" className='about-text-div '>
                     <p>My name is Md Altaf Hossen and I am an ambitious Frontend Engineer based in Bangladesh.</p>
 

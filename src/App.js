@@ -5,15 +5,16 @@ import About from './pages/About/About';
 import Home from './pages/Home/Home';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import 'react-toastify/dist/ReactToastify.css';
+import 'react-loading-skeleton/dist/skeleton.css'
+import Loading from './components/Shared/Loading/Loading';
 import Skill from './pages/Skill/Skill';
 import Resume from './pages/Resume/Resume';
 import Education from './pages/Education/Education';
-import Contact from './pages/Contact/Contact';
 import Projects from './pages/Projects/Projects';
-import ProjectDetail from './pages/ProjectDetail/ProjectDetail';
-import Loading from './components/Shared/Loading/Loading';
+import ProjectDetail from './components/ProjectDetail/ProjectDetail';
+import Contact from './pages/Contact/Contact';
 import NotFound from './components/Shared/NotFound/NotFound';
-import 'react-toastify/dist/ReactToastify.css';
 // ..
 AOS.init();
 

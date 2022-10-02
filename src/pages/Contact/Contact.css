@@ -1,4 +1,6 @@
-
+.none{
+    display: none;
+}
 
 .right_conatct_social_icon {
     background: linear-gradient(to top right, #1325e8 -5%, #8f10b7 100%);
@@ -139,6 +141,7 @@ input.contact_form_submit {
     overflow: hidden;
 }
 
+/* responsive design for mobile and tablet device  */
 
 @media screen and (max-width:682px) {
     .contact_info_sec{

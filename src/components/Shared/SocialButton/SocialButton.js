@@ -23,12 +23,14 @@ const SocialButton = () => {
     }
     return (
         <div className='d-flex mt-5 social-button-container'>
+            {/* linkedin */}
             <NavLink data-aos="fade-up"
                 data-aos-duration="3000" onClick={() => handleLinkedIn()} className='me-2 linked-in-icon'  to="">
                 <div style={{ backgroundColor: '#fff', borderRadius: '50%' }}>
                     <i style={{ padding: '12px 7px' }} className="fa-brands fa-linkedin-in fa-2x "></i>
                 </div>
             </NavLink>
+            {/* github */}
             <NavLink data-aos="fade-up"
                 data-aos-duration="3000" onClick={() => handleGitHub()} className='ms-2 github-button'  to="">
                 <div style={{ backgroundColor: '#fff', borderRadius: '50%' }}>
@@ -36,6 +38,7 @@ const SocialButton = () => {
 
                 </div>
             </NavLink>
+            {/* Email  */}
             <NavLink data-aos="fade-up"
                 data-aos-duration="3000" onClick={() => handleEmail()} className='ms-3 email-button'  to="">
                 <div style={{ backgroundColor: '#fff', borderRadius: '50%' }}>

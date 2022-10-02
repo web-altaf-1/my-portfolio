@@ -17,6 +17,8 @@
     padding: 1rem ;
 }
 
+/* responsive for mobile or tablete device  */
+
 @media screen and (max-width:682px) {
     .about-text-div {
         width: 100%;

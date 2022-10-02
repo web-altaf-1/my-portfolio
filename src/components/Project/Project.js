@@ -4,7 +4,10 @@ import { useNavigate } from 'react-router-dom';
 import './Project.css';
 
 const Project = (props) => {
-    const navigate = useNavigate();
+    
+    const navigate = useNavigate();   // react useNavigate hooks 
+    
+    // props distracturing 
     const { _id, name, img } = props.data;
 
     const handleProjectDetails=(id)=>{

@@ -5,6 +5,8 @@
     margin: 0px 10px;
 }
 
+/* responsive design for mobile and tablate device  */
+
 @media screen and (max-width:682px) {
     .all-project-card{
         display: grid;
