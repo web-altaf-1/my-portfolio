@@ -49,6 +49,7 @@
 
 @media screen and (max-width:460px) {
     .custom-btn{
-        padding: 7px;
+        padding: 1em;
+        border-radius: 10px;
     }    
 }

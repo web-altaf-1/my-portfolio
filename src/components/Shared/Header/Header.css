@@ -74,10 +74,6 @@
 }
 
 
-
-
-
-
 #menuToggle {
     display: flex;
     flex-direction: column;
@@ -145,18 +141,23 @@
     position: absolute;
     visibility: hidden;
     right: -20px;
-    top: 43px;
+    top: 42px;
     z-index: 888;
-    background-color: #36383F;
+    /* background-color: #36383F; */
+    background-color: #12324e;
     padding: 20px;
+    padding-left: 50px;
 }
 
 #menu li {
-    padding: 5px 10px;
+    margin-right: 20px;
+    padding: 10px 20px;
     list-style: none;
 }
 #menu li:hover {
     background-color: rgb(255, 35, 171);
+    border-radius: 5px;
+    transition: all 0.5s;
 }
 
 #menuToggle input:checked~ul {
@@ -179,6 +180,10 @@
     }
     .navigation{
         display: block;
+    }
+    .header-logo{
+        margin-left: 5px;
+        
     }
 
 }

@@ -18,7 +18,7 @@ const Projects = () => {
             <div className='all-project-card'>
                 {/* all projects data maps and show all project single item  */}
                 {
-                    data.map((data,index) => <Project key={index} data={data}></Project>)
+                    data?.map(data => <Project key={data._id} data={data}></Project>)
                 }
             </div>
         </div>

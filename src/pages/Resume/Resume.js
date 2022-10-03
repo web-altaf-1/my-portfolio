@@ -18,6 +18,9 @@ const Resume = () => {
         })
 
     }
+    const handleGoogleDriveResume = () => {
+        window.open('https://drive.google.com/file/d/1Y1X6uoI0J7W4rc5YWsVMBeDm-sblJwCP/view?usp=sharing','_blank')
+    }
 
     return (
         // Resume button or others details here 
@@ -25,7 +28,7 @@ const Resume = () => {
             data-aos-duration="700" className='resume-container' >
 
             <button onClick={() => DownloadFile(resume)} className='resume-first '>Download Resume</button>
-            <button className='resume-second '>Google Drive Resume</button>
+            <button onClick={handleGoogleDriveResume} className='resume-second '>Google Drive Resume</button>
 
         </div>
     );

@@ -6,7 +6,7 @@ import Loading from '../../components/Shared/Loading/Loading';
 
 const ProjectDetail = () => {
     const [project, setProject] = useState({});
-    const [isLoading, setIsLoading] = useState(false);
+    const [isLoading2, setIsLoading2] = useState(false);
     const { id } = useParams();  // get id by useParams 
 
 
@@ -15,20 +15,20 @@ const ProjectDetail = () => {
 
     useEffect(() => {
 
-        setIsLoading(true)    // loading true 
+        setIsLoading2(true)    // loading true 
         const url = `https://react-portfolio-server.onrender.com/all-project/${id}`;
         fetch(url)
             .then(res => res.json())
             .then(data => {
                 setProject(data);
-                setIsLoading(false);   // loading false 
+                setIsLoading2(false);   // loading false 
             });
 
-    }, []);
+    }, [id]);
 
 
     // loading components 
-    if (isLoading) {
+    if (isLoading2) {
         return <Loading></Loading>
     }
 
