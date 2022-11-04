@@ -6,10 +6,9 @@ const UseProject = () => {
 
     // data load on server 
     const url = "https://react-portfolio-server.onrender.com/all-project"  // server url
-    // const url2 = "http://localhost:4000/all-project"  // server url
     useEffect(() => {
 
-        setIsLoading(true); //loading start
+        setIsLoading(true); //loading start now 
         fetch(url, {
             headers: {
                 'Content-Type': 'application/json',

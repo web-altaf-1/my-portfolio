@@ -16,7 +16,7 @@ const ProjectDetail = () => {
     useEffect(() => {
 
         setIsLoading2(true)    // loading true 
-        const url = `https://react-portfolio-server.onrender.com/all-project/${id}`;
+        const url = `https://react-portfolio-server-zeta.vercel.app/all-project/${id}`;
         fetch(url)
             .then(res => res.json())
             .then(data => {
