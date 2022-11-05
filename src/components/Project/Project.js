@@ -30,7 +30,7 @@ const Project = (props) => {
     useEffect(() => {
 
         setIsLoading3(true)    // loading true 
-        const url = `http://localhost:4000/all-project/${_id}`;
+        const url = `https://react-portfolio-server-production.up.railway.app/all-project/${_id}`;
         fetch(url)
             .then(res => res.json())
             .then(data => {
