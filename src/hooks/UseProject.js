@@ -5,7 +5,7 @@ const UseProject = () => {
     const [isLoading, setIsLoading] = useState(false);
 
     // data load on server 
-    const url = "https://react-portfolio-server.onrender.com/all-project"  // server url
+    const url = "https://react-portfolio-server-production.up.railway.app/all-project"  // server url
     useEffect(() => {
 
         setIsLoading(true); //loading start now 

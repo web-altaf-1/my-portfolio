@@ -30,7 +30,7 @@ const Project = (props) => {
     useEffect(() => {
 
         setIsLoading3(true)    // loading true 
-        const url = `https://react-portfolio-server.onrender.com/all-project/${_id}`;
+        const url = `http://localhost:4000/all-project/${_id}`;
         fetch(url)
             .then(res => res.json())
             .then(data => {
